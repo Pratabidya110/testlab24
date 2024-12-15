@@ -1,0 +1,610 @@
+labuser@labuser-virtual-machine:~/test1$ cd 
+labuser@labuser-virtual-machine:~$ ls
+Desktop    Downloads    Music     Public  snap       test1
+Documents  execute.yml  Pictures  repos   Templates  Videos
+labuser@labuser-virtual-machine:~$ cd test1
+labuser@labuser-virtual-machine:~/test1$ git remote add origin https://github.coM/pratabidya110/testlab24.git clear
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+labuser@labuser-virtual-machine:~/test1$ git remote add origin https://github.coM/pratabidya110/testlab24.git
+error: remote origin already exists.
+labuser@labuser-virtual-machine:~/test1$ cd test1
+bash: cd: test1: No such file or directory
+labuser@labuser-virtual-machine:~/test1$ mkdir test1
+mkdir: cannot create directory ‘test1’: No such file or directory
+labuser@labuser-virtual-machine:~/test1$ cd
+labuser@labuser-virtual-machine:~$ ls
+Desktop    Downloads    Music     Public  snap       Videos
+Documents  execute.yml  Pictures  repos   Templates
+labuser@labuser-virtual-machine:~$ mkdir test1
+labuser@labuser-virtual-machine:~$ git init
+Initialized empty Git repository in /home/labuser/.git/
+labuser@labuser-virtual-machine:~$ echo "test1" > test1
+bash: test1: Is a directory
+labuser@labuser-virtual-machine:~$ git init
+Reinitialized existing Git repository in /home/labuser/.git/
+labuser@labuser-virtual-machine:~$ echo "test1" > test1
+bash: test1: Is a directory
+labuser@labuser-virtual-machine:~$ cd test1
+labuser@labuser-virtual-machine:~/test1$ git init
+Initialized empty Git repository in /home/labuser/test1/.git/
+labuser@labuser-virtual-machine:~/test1$ echo "test1" > test1
+labuser@labuser-virtual-machine:~/test1$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test1
+
+nothing added to commit but untracked files present (use "git add" to track)
+labuser@labuser-virtual-machine:~/test1$ git add .
+labuser@labuser-virtual-machine:~/test1$ git commit -m "change1"
+[master (root-commit) 06dbb04] change1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test1
+labuser@labuser-virtual-machine:~/test1$ git remote add origin https://github.com/pratabidya110/testlab24.git
+labuser@labuser-virtual-machine:~/test1$ git remote -v
+origin	https://github.com/pratabidya110/testlab24.git (fetch)
+origin	https://github.com/pratabidya110/testlab24.git (push)
+labuser@labuser-virtual-machine:~/test1$ git push -u origin master
+Username for 'https://github.com': pratabidya110
+Password for 'https://pratabidya110@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/pratabidya110/testlab24.git/'
+labuser@labuser-virtual-machine:~/test1$ git push -u origin master
+Username for 'https://github.com':^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^^C                                                                        C
+labuser@labuser-virtual-machine:~/test1$ git push -u origin master
+Username for 'https://github.com': pratabidya110
+Password for 'https://pratabidya110@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/pratabidya110/testlab24.git/'
+labuser@labuser-virtual-machine:~/test1$ git push -u origin master
+Username for 'https://github.com': pratabidya110    
+Password for 'https://pratabidya110@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/pratabidya110/testlab24.git/'
+labuser@labuser-virtual-machine:~/test1$ git push -u origin master
+Username for 'https://github.com': pratabidya110
+Password for 'https://pratabidya110@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/pratabidya110/testlab24.git/'
+labuser@labuser-virtual-machine:~/test1$ git push -u origin master
+Username for 'https://github.com': pratabidya110
+Password for 'https://pratabidya110@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/pratabidya110/testlab24.git/'
+labuser@labuser-virtual-machine:~/test1$ git push -u origin master
+Username for 'https://github.com': pratabidya110
+Password for 'https://pratabidya110@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/pratabidya110/testlab24.git/'
+labuser@labuser-virtual-machine:~/test1$ git push -u origin master
+Username for 'https://github.com':^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^^C                                                             
+labuser@labuser-virtual-machine:~/test1$ git push -u origin master
+Username for 'https://github.com': Pratabidya110
+Password for 'https://Pratabidya110@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 222 bytes | 222.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Pratabidya110/testlab24.git
+To https://github.com/pratabidya110/testlab24.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+labuser@labuser-virtual-machine:~/test1$ ^C
+labuser@labuser-virtual-machine:~/test1$ ls
+test1
+labuser@labuser-virtual-machine:~/test1$ nano test1
+labuser@labuser-virtual-machine:~/test1$ git add .
+labuser@labuser-virtual-machine:~/test1$ git commit -m "change2"
+[master 18dee27] change2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+labuser@labuser-virtual-machine:~/test1$ git push -u origin master
+Username for 'https://github.com': pratabidya110 
+Password for 'https://pratabidya110@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 251 bytes | 251.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Pratabidya110/testlab24.git
+To https://github.com/pratabidya110/testlab24.git
+   06dbb04..18dee27  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+labuser@labuser-virtual-machine:~/test1$ git branch
+* master
+labuser@labuser-virtual-machine:~/test1$ git branch devops1
+labuser@labuser-virtual-machine:~/test1$ git checkout devops1
+Switched to branch 'devops1'
+labuser@labuser-virtual-machine:~/test1$ git branch
+* devops1
+  master
+labuser@labuser-virtual-machine:~/test1$ echo "test3" > file1
+labuser@labuser-virtual-machine:~/test1$ echo "test4" > file2
+labuser@labuser-virtual-machine:~/test1$ ls -li
+total 12
+6032107 -rw-rw-r-- 1 labuser labuser 6 Dec 14 14:07 file1
+6032138 -rw-rw-r-- 1 labuser labuser 6 Dec 14 14:08 file2
+6032046 -rw-rw-r-- 1 labuser labuser 6 Dec 14 14:03 test1
+labuser@labuser-virtual-machine:~/test1$ ls -li
+total 12
+6032107 -rw-rw-r-- 1 labuser labuser 6 Dec 14 14:07 file1
+6032138 -rw-rw-r-- 1 labuser labuser 6 Dec 14 14:08 file2
+6032046 -rw-rw-r-- 1 labuser labuser 6 Dec 14 14:03 test1
+labuser@labuser-virtual-machine:~/test1$ git add .
+labuser@labuser-virtual-machine:~/test1$ git commit -m "change4"
+[devops1 def83b7] change4
+ 2 files changed, 2 insertions(+)
+ create mode 100644 file1
+ create mode 100644 file2
+labuser@labuser-virtual-machine:~/test1$ git push -u origin devops1
+Username for 'https://github.com': pratabidya110
+Password for 'https://pratabidya110@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 320 bytes | 320.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Pratabidya110/testlab24.git
+remote: 
+remote: Create a pull request for 'devops1' on GitHub by visiting:
+remote:      https://github.com/Pratabidya110/testlab24/pull/new/devops1
+remote: 
+To https://github.com/pratabidya110/testlab24.git
+ * [new branch]      devops1 -> devops1
+Branch 'devops1' set up to track remote branch 'devops1' from 'origin'.
+labuser@labuser-virtual-machine:~/test1$ git branch
+* devops1
+  master
+labuser@labuser-virtual-machine:~/test1$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+labuser@labuser-virtual-machine:~/test1$ git merge devops1
+Updating 18dee27..def83b7
+Fast-forward
+ file1 | 1 +
+ file2 | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 file1
+ create mode 100644 file2
+labuser@labuser-virtual-machine:~/test1$ git log -p
+commit def83b7236248b917d5e2127ea9899354ef7fd5d (HEAD -> master, origin/devops1, devops1)
+Author: David Robichaud <david.robichaud@skillsoft.com>
+Date:   Sat Dec 14 14:09:14 2024 -0500
+
+    change4
+
+diff --git a/file1 b/file1
+new file mode 100644
+index 0000000..df6b0d2
+--- /dev/null
++++ b/file1
+@@ -0,0 +1 @@
++test3
+diff --git a/file2 b/file2
+new file mode 100644
+index 0000000..d234c5e
+--- /dev/null
++++ b/file2
+@@ -0,0 +1 @@
++test4
+
+commit 18dee27a0418aed3cead715d7e02082831fe3c98 (origin/master)
+Author: David Robichaud <david.robichaud@skillsoft.com>
+Date:   Sat Dec 14 14:03:53 2024 -0500
+
+    change2
+
+diff --git a/test1 b/test1
+index a5bce3f..180cf83 100644
+--- a/test1
++++ b/test1
+@@ -1 +1 @@
+-test1
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit def83b7236248b917d5e2127ea9899354ef7fd5d (HEAD -> master, origin/devops1, devops1)
+Author: David Robichaud <david.robichaud@skillsoft.com>
+Date:   Sat Dec 14 14:09:14 2024 -0500
+
+    change4
+
+diff --git a/file1 b/file1
+new file mode 100644
+index 0000000..df6b0d2
+--- /dev/null
++++ b/file1
+@@ -0,0 +1 @@
++test3
+diff --git a/file2 b/file2
+new file mode 100644
+index 0000000..d234c5e
+--- /dev/null
++++ b/file2
+@@ -0,0 +1 @@
++test4
+
+commit 18dee27a0418aed3cead715d7e02082831fe3c98 (origin/master)
+Author: David Robichaud <david.robichaud@skillsoft.com>
+Date:   Sat Dec 14 14:03:53 2024 -0500
+
+    change2
+
+diff --git a/test1 b/test1
+index a5bce3f..180cf83 100644
+--- a/test1
++++ b/test1
+@@ -1 +1 @@
+-test1
++test2
+
+commit 06dbb04fa4a39e35b9b43ff26d29243e55748fac
+Author: David Robichaud <david.robichaud@skillsoft.com>
+Date:   Sat Dec 14 13:23:28 2024 -0500
+
+    change1
+
+diff --git a/test1 b/test1
+new file mode 100644
+index 0000000..a5bce3f
+--- /dev/null
++++ b/test1
+@@ -0,0 +1 @@
++test1
+(END)
++++ b/file2
+@@ -0,0 +1 @@
++test4
+
+commit 18dee27a0418aed3cead715d7e02082831fe3c98 (origin/master)
+Author: David Robichaud <david.robichaud@skillsoft.com>
+Date:   Sat Dec 14 14:03:53 2024 -0500
+
+    change2
+
+diff --git a/test1 b/test1
+index a5bce3f..180cf83 100644
+--- a/test1
++++ b/test1
+@@ -1 +1 @@
+-test1
++test2
+
+commit 06dbb04fa4a39e35b9b43ff26d29243e55748fac
+:
++++ b/file2
+@@ -0,0 +1 @@
++test4
+
+commit 18dee27a0418aed3cead715d7e02082831fe3c98 (origin/master)
+Author: David Robichaud <david.robichaud@skillsoft.com>
+Date:   Sat Dec 14 14:03:53 2024 -0500
+
+    change2
+
+diff --git a/test1 b/test1
+index a5bce3f..180cf83 100644
+--- a/test1
++++ b/test1
+@@ -1 +1 @@
+-test1
++test2
+
+ ESCOD
++++ b/file2
+@@ -0,0 +1 @@
++test4
+
+commit 18dee27a0418aed3cead715d7e02082831fe3c98 (origin/master)
+Author: David Robichaud <david.robichaud@skillsoft.com>
+Date:   Sat Dec 14 14:03:53 2024 -0500
+
+    change2
+
+diff --git a/test1 b/test1
+index a5bce3f..180cf83 100644
+--- a/test1
++++ b/test1
+@@ -1 +1 @@
+-test1
++test2
+
+ ESCOD
+commit def83b7236248b917d5e2127ea9899354ef7fd5d (HEAD -> master, origin/devops1,
+ devops1)
+Author: David Robichaud <david.robichaud@skillsoft.com>
+Date:   Sat Dec 14 14:09:14 2024 -0500
+
+    change4
+
+diff --git a/file1 b/file1
+new file mode 100644
+index 0000000..df6b0d2
+--- /dev/null
++++ b/file1
+@@ -0,0 +1 @@
++test3
+diff --git a/file2 b/file2
+new file mode 100644
+index 0000000..d234c5e
+--- /dev/null
+:
+
+labuser@labuser-virtual-machine:~/test1$ git log --oneline
+def83b7 (HEAD -> master, origin/devops1, devops1) change4
+18dee27 (origin/master) change2
+06dbb04 change1
+labuser@labuser-virtual-machine:~/test1$ cd
+labuser@labuser-virtual-machine:~$ git clone https://github.com/pratabidya110/testlab24.git
+Cloning into 'testlab24'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 10 (delta 0), reused 10 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (10/10), done.
+labuser@labuser-virtual-machine:~$ ls -li
+total 52
+6029410 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Desktop
+6029414 drwxr-xr-x 3 labuser labuser 4096 Dec 15  2023 Documents
+6029411 drwxr-xr-x 2 labuser labuser 4096 Dec 18  2023 Downloads
+6036475 -rw-rw-r-- 1 labuser labuser   53 Dec 18  2023 execute.yml
+6029415 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Music
+6029416 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Pictures
+6029413 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Public
+6030259 drwxrwxr-x 2 labuser labuser 4096 Dec 18  2023 repos
+6029322 drwx------ 6 labuser labuser 4096 Dec 15  2023 snap
+6029412 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Templates
+6029389 drwxrwxr-x 3 labuser labuser 4096 Dec 14 14:16 test1
+6030422 drwxrwxr-x 3 labuser labuser 4096 Dec 14 14:21 testlab24
+6029418 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Videos
+labuser@labuser-virtual-machine:~$ ls
+Desktop    Downloads    Music     Public  snap       test1      Videos
+Documents  execute.yml  Pictures  repos   Templates  testlab24
+labuser@labuser-virtual-machine:~$ mkdir dev1
+labuser@labuser-virtual-machine:~$ cd dev1
+labuser@labuser-virtual-machine:~/dev1$ git pull https://githUb.com/pratabidya110/testlab24.git
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 421 bytes | 421.00 KiB/s, done.
+From https://githUb.com/pratabidya110/testlab24
+ * branch            HEAD       -> FETCH_HEAD
+error: Updating the following directories would lose untracked files in them:
+	test1
+
+Aborting
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/pratabidya110/testlab24.git
+From https://github.com/pratabidya110/testlab24
+ * branch            HEAD       -> FETCH_HEAD
+error: Updating the following directories would lose untracked files in them:
+	test1
+
+Aborting
+labuser@labuser-virtual-machine:~/dev1$ git init
+Initialized empty Git repository in /home/labuser/dev1/.git/
+labuser@labuser-virtual-machine:~/dev1$ git remote -v
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/pratabidya110/testlab24.git master
+fatal: unable to access 'https://github.com/pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/Pratabidya110/testlab24.git master
+fatal: unable to access 'https://github.com/Pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/pratabidya110/testlab24.git.master
+fatal: unable to access 'https://github.com/pratabidya110/testlab24.git.master/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/pratabidya110/testlab24.git master
+fatal: unable to access 'https://github.com/pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/Pratabidya110/testlab24.git master
+fatal: unable to access 'https://github.com/Pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev1$ ls -li
+total 0
+labuser@labuser-virtual-machine:~/dev1$ cd
+labuser@labuser-virtual-machine:~$ git pull https://github.com/Pratabidya110/testlab24.git
+fatal: unable to access 'https://github.com/Pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~$ git clone https://github.com/Pratabidya110/testlab24.git
+fatal: destination path 'testlab24' already exists and is not an empty directory.
+labuser@labuser-virtual-machine:~$ ls -li
+total 56
+6029410 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Desktop
+6032194 drwxrwxr-x 3 labuser labuser 4096 Dec 15 00:02 dev1
+6029414 drwxr-xr-x 3 labuser labuser 4096 Dec 15  2023 Documents
+6029411 drwxr-xr-x 2 labuser labuser 4096 Dec 18  2023 Downloads
+6036475 -rw-rw-r-- 1 labuser labuser   53 Dec 18  2023 execute.yml
+6029415 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Music
+6029416 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Pictures
+6029413 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Public
+6030259 drwxrwxr-x 2 labuser labuser 4096 Dec 18  2023 repos
+6029322 drwx------ 6 labuser labuser 4096 Dec 15  2023 snap
+6029412 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Templates
+6029389 drwxrwxr-x 3 labuser labuser 4096 Dec 14 14:16 test1
+6030422 drwxrwxr-x 3 labuser labuser 4096 Dec 14 14:21 testlab24
+6029418 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Videos
+labuser@labuser-virtual-machine:~$ ls
+Desktop  Documents  execute.yml  Pictures  repos  Templates  testlab24
+dev1     Downloads  Music        Public    snap   test1      Videos
+labuser@labuser-virtual-machine:~$ ls -li
+total 56
+6029410 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Desktop
+6032194 drwxrwxr-x 3 labuser labuser 4096 Dec 15 00:02 dev1
+6029414 drwxr-xr-x 3 labuser labuser 4096 Dec 15  2023 Documents
+6029411 drwxr-xr-x 2 labuser labuser 4096 Dec 18  2023 Downloads
+6036475 -rw-rw-r-- 1 labuser labuser   53 Dec 18  2023 execute.yml
+6029415 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Music
+6029416 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Pictures
+6029413 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Public
+6030259 drwxrwxr-x 2 labuser labuser 4096 Dec 18  2023 repos
+6029322 drwx------ 6 labuser labuser 4096 Dec 15  2023 snap
+6029412 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Templates
+6029389 drwxrwxr-x 3 labuser labuser 4096 Dec 14 14:16 test1
+6030422 drwxrwxr-x 3 labuser labuser 4096 Dec 14 14:21 testlab24
+6029418 drwxr-xr-x 2 labuser labuser 4096 Sep 12  2023 Videos
+labuser@labuser-virtual-machine:~$ cd testlab24
+labuser@labuser-virtual-machine:~/testlab24$ ls
+test1
+labuser@labuser-virtual-machine:~/testlab24$ mkdir dev1
+labuser@labuser-virtual-machine:~/testlab24$ cd dev1
+labuser@labuser-virtual-machine:~/testlab24/dev1$ git pull https://github.com/pratabidya110/testlab24.git
+fatal: unable to access 'https://github.com/pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/testlab24/dev1$ git init.
+git: 'init.' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+labuser@labuser-virtual-machine:~/testlab24/dev1$ git init .
+Initialized empty Git repository in /home/labuser/testlab24/dev1/.git/
+labuser@labuser-virtual-machine:~/testlab24/dev1$ git remote -v
+labuser@labuser-virtual-machine:~/testlab24/dev1$ git pull https://github.com/pratabidya110/testlab24.git master
+fatal: unable to access 'https://github.com/pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/testlab24/dev1$ git pull https://github.com/pratabidya110/testlab24.git master
+fatal: unable to access 'https://github.com/pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/testlab24/dev1$ git remote -v
+labuser@labuser-virtual-machine:~/testlab24/dev1$ cd
+labuser@labuser-virtual-machine:~$ ls
+Desktop  Documents  execute.yml  Pictures  repos  Templates  testlab24
+dev1     Downloads  Music        Public    snap   test1      Videos
+labuser@labuser-virtual-machine:~$ cd dev1
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/pratabidya110/testlab24.git
+fatal: unable to access 'https://github.com/pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev1$ 
+labuser@labuser-virtual-machine:~/dev1$ git init .
+Reinitialized existing Git repository in /home/labuser/dev1/.git/
+labuser@labuser-virtual-machine:~/dev1$ git remote -v
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/pratabidya110/testlab24.git master
+fatal: unable to access 'https://github.com/pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev1$ 
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/Pratabidya110/testlab24.git master
+fatal: unable to access 'https://github.com/Pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev1$ cd
+labuser@labuser-virtual-machine:~$ cd labtest24
+bash: cd: labtest24: No such file or directory
+labuser@labuser-virtual-machine:~$ cd testlab24
+labuser@labuser-virtual-machine:~/testlab24$ ls
+dev1  test1
+labuser@labuser-virtual-machine:~/testlab24$ cd
+labuser@labuser-virtual-machine:~$ mkdir dev1
+mkdir: cannot create directory ‘dev1’: File exists
+labuser@labuser-virtual-machine:~$ mkdir dev2
+labuser@labuser-virtual-machine:~$ cd dev2
+labuser@labuser-virtual-machine:~/dev2$ git pull https://github.com/Pratabidya110/testlab24.git
+fatal: unable to access 'https://github.com/Pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev2$ git remote -v
+labuser@labuser-virtual-machine:~/dev2$ git pull https://github.com/pratabidya110/testlab24.git master
+fatal: unable to access 'https://github.com/pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev2$ cd
+labuser@labuser-virtual-machine:~$ rmdir dev2
+labuser@labuser-virtual-machine:~$ rmdir dev1
+rmdir: failed to remove 'dev1': Directory not empty
+labuser@labuser-virtual-machine:~$ rmdir dev1
+rmdir: failed to remove 'dev1': No such file or directory
+labuser@labuser-virtual-machine:~$ mkdir dev1
+labuser@labuser-virtual-machine:~$ cd dev1
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/pratabidya110/testlab24.git
+fatal: unable to access 'https://github.com/pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/Pratabidya110/testlab24.git
+fatal: unable to access 'https://github.com/Pratabidya110/testlab24.git/': Could not resolve host: github.com
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/Pratabidya110/testlab24.git
+From https://github.com/Pratabidya110/testlab24
+ * branch            HEAD       -> FETCH_HEAD
+error: Updating the following directories would lose untracked files in them:
+	test1
+
+Aborting
+labuser@labuser-virtual-machine:~/dev1$ git init .
+Initialized empty Git repository in /home/labuser/dev1/.git/
+labuser@labuser-virtual-machine:~/dev1$ git remote -v
+labuser@labuser-virtual-machine:~/dev1$ git pull https://github.com/Pratabidya110/testlab24.git master
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 421 bytes | 421.00 KiB/s, done.
+From https://github.com/Pratabidya110/testlab24
+ * branch            master     -> FETCH_HEAD
+labuser@labuser-virtual-machine:~/dev1$ branch
+Command 'branch' not found, but can be installed with:
+sudo apt install rheolef
+labuser@labuser-virtual-machine:~/dev1$ git branch
+* master
+labuser@labuser-virtual-machine:~/dev1$ ls -li
+total 4
+6030111 -rw-rw-r-- 1 labuser labuser 6 Dec 15 00:36 test1
+labuser@labuser-virtual-machine:~/dev1$ git branch m1
+labuser@labuser-virtual-machine:~/dev1$ git checkout m1
+Switched to branch 'm1'
+labuser@labuser-virtual-machine:~/dev1$ echo "apple1" > fruit
+labuser@labuser-virtual-machine:~/dev1$ ls
+fruit  test1
+labuser@labuser-virtual-machine:~/dev1$ git checkout master
+Switched to branch 'master'
+labuser@labuser-virtual-machine:~/dev1$ ls
+fruit  test1
+labuser@labuser-virtual-machine:~/dev1$ hit checkout m1
+Command 'hit' not found, did you mean:
+  command 'hi' from snap hi (1.1)
+  command 'vit' from deb vit (2.1.0-2)
+  command 'hkt' from deb hopenpgp-tools (0.23.6-1build1)
+  command 'git' from deb git (1:2.34.1-1ubuntu1.11)
+  command 'ht' from deb texlive-plain-generic (2021.20220204-1)
+  command 'hitc' from deb pvm-examples (3.4.6-3.2)
+  command 'hist' from deb loki (2.4.7.4-10)
+  command 'hot' from deb hopenpgp-tools (0.23.6-1build1)
+  command 'wit' from deb wit (3.01a-4)
+See 'snap info <snapname>' for additional versions.
+labuser@labuser-virtual-machine:~/dev1$ git checkout m1
+Switched to branch 'm1'
+labuser@labuser-virtual-machine:~/dev1$ ls
+fruit  test1
+labuser@labuser-virtual-machine:~/dev1$ git rebase master
+Current branch m1 is up to date.
+labuser@labuser-virtual-machine:~/dev1$ 
+
+  
